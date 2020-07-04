@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 
 
@@ -6,7 +6,7 @@ public class Snake
 {
 
     int Height = 20; // wysokość
-    int Width = 60; //szerokość planszy
+    int Width = 30; //szerokość planszy
 
     int[] X = new int[50];
     int[] Y = new int[50];
@@ -27,34 +27,34 @@ public class Snake
         X[0] = 5;
         Y[0] = 5;
         Console.CursorVisible = false;
-        fruitX = rnd.Next(2, (Width - 2));
-        fruitY = rnd.Next(2, (Height - 2));
+        fruitX = 10;
+        fruitY = 10;
     }
 
     public void WriteBoard()
     {
         Console.Clear();
-        for (int i = 1; i <= (Width + 2); i++)
+        for (int i = 1; i <= (Width ); i++)
         {
             Console.SetCursorPosition(i, 1);
             Console.Write("*");
 
         }
-        for (int i = 1; i <= (Width + 2); i++)
+        for (int i = 1; i <= (Width ); i++)
         {
             Console.SetCursorPosition(i, (Height + 2));
             Console.Write("*");
 
         }
-        for (int i = 1; i <= (Height + 1); i++)
+        for (int i = 1; i <= (Height ); i++)
         {
             Console.SetCursorPosition(1, i);
             Console.Write("*");
 
         }
-        for (int i = 1; i <= (Height + 1); i++)
+        for (int i = 1; i <= (Height ); i++)
         {
-            Console.SetCursorPosition((Width + 2), i);
+            Console.SetCursorPosition((Width), i);
             Console.Write("*");
 
         }
@@ -85,9 +85,8 @@ public class Snake
             if (Y[0] == fruitY)
             {
                 parts++;
-                fruitX = rnd.Next(2, (Width - 2));
-                fruitY = rnd.Next(2, (Height - 2));
-
+                fruitX = rnd.Next(maxValue:29, minValue:2);
+                fruitY = rnd.Next(maxValue:29, minValue:2);
             }
         }
 
@@ -95,6 +94,7 @@ public class Snake
         {
             X[i - 1] = X[i - 2];
             Y[i - 1] = Y[i - 2];
+            
 
         }
         switch (key)
@@ -113,13 +113,18 @@ public class Snake
                 break;
 
         }
+        
         for (int i = 0; i <= (parts - 1); i++) //rysuje węża
         {
             WritePoint(X[i], Y[i]);
             WritePoint(fruitX, fruitY);
+            if (X[i] > Width | X[i] < 0 | Y[i]>Height | Y[i] <0) 
+            {
+                Console.WriteLine("KONIEC GRY");
+            }
         }
 
-        Thread.Sleep(100);
+        Thread.Sleep(200);
     }
 }
 
