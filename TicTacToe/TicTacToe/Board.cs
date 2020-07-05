@@ -51,7 +51,7 @@ namespace TicTacToe
                 return _freeCell;
             }
         }
-        //not in use!
+        
         public int GetSize () { return Size * Size; }
         public void Print ()
         {

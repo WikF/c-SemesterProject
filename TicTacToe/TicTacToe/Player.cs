@@ -57,7 +57,7 @@ namespace TicTacToe
     }
 
     class AI : Player
-    {
+    { //pożądane pozycje 
         int[] Coefficient = new int[] {
              1,   0,   1,
              0,   100, 0,
@@ -115,14 +115,14 @@ namespace TicTacToe
             int position;
             Coefficient[pos] = HumanCoefficient;
 
-            //  Rows change coefficient
+            //  Rzędy zmieniają wartość coefficient
             for ( position = pos % 3; position < 9; position = position + 3 )
             {
                 if ( Coefficient[position] != HumanCoefficient && Coefficient[position] != AICoefficient )
                     Coefficient[position] -= 10;
             }
 
-            //  Columns change coefficient
+            //  Kolumny zmieniają wartość coefficient
             int start = pos - pos % 3;
             for ( position = start; position < start + 3; ++position )
             {
@@ -130,7 +130,6 @@ namespace TicTacToe
                     Coefficient[position] -= 10;
             }
 
-            // Diagonal change coefficient
             if ( pos == 0 || pos == 8 )
             {
                 for ( position = 0; position < 9; position = position + 4 )
@@ -141,14 +140,14 @@ namespace TicTacToe
             }
             else if ( pos == 4 )
             {
-                //  Rows change coefficient
+                //  Rzędy zmieniają wartość coefficient
                 for ( position = pos % 3; position < 9; position = position + 3 )
                 {
                     if ( Coefficient[position] != HumanCoefficient && Coefficient[position] != AICoefficient )
                         Coefficient[position] -= 10;
                 }
 
-                //  Columns change coefficient
+                //  Kolumny zmieniają wartość coefficient
                 start = pos - pos % 3;
                 for ( position = start; position < start + 3; ++position )
                 {
@@ -181,14 +180,14 @@ namespace TicTacToe
             int position;
             Coefficient[pos] = AICoefficient;
 
-            //  Rows change coefficient
+            //  Rzędy zmieniają wartość coefficient
             for ( position = pos % 3; position < 9; position = position + 3 )
             {
                 if ( Coefficient[position] != HumanCoefficient && Coefficient[position] != AICoefficient )
                     Coefficient[position] += 10;
             }
 
-            //  Columns change coefficient
+            //  Kolumny zmieniają wartość coefficient
             int start = pos - pos % 3;
             for ( position = start; position < start + 3; ++position )
             {
@@ -196,7 +195,6 @@ namespace TicTacToe
                     Coefficient[position] += 10;
             }
 
-            // Diagonal change coefficient
             if ( pos == 0 || pos == 8 )
             {
                 for ( position = 0; position < 9; position = position + 4 )
