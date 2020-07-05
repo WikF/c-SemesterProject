@@ -4,9 +4,3 @@
 /Users/wiktor.fedun/Desktop/TicTacToeConsole-master/TicTacToe/TicTacToe/obj/Debug/TicTacToe.csprojAssemblyReference.cache
 /Users/wiktor.fedun/Desktop/TicTacToeConsole-master/TicTacToe/TicTacToe/obj/Debug/TicTacToe.exe
 /Users/wiktor.fedun/Desktop/TicTacToeConsole-master/TicTacToe/TicTacToe/obj/Debug/TicTacToe.pdb
-/Users/wiktor.fedun/Desktop/STUDIA/c-SemesterProject/TicTacToe/TicTacToe/bin/Debug/TicTacToe.exe.config
-/Users/wiktor.fedun/Desktop/STUDIA/c-SemesterProject/TicTacToe/TicTacToe/bin/Debug/TicTacToe.exe
-/Users/wiktor.fedun/Desktop/STUDIA/c-SemesterProject/TicTacToe/TicTacToe/bin/Debug/TicTacToe.pdb
-/Users/wiktor.fedun/Desktop/STUDIA/c-SemesterProject/TicTacToe/TicTacToe/obj/Debug/TicTacToe.csprojAssemblyReference.cache
-/Users/wiktor.fedun/Desktop/STUDIA/c-SemesterProject/TicTacToe/TicTacToe/obj/Debug/TicTacToe.exe
-/Users/wiktor.fedun/Desktop/STUDIA/c-SemesterProject/TicTacToe/TicTacToe/obj/Debug/TicTacToe.pdb
