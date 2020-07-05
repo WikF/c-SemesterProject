@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using System.Threading;
 
 
@@ -81,6 +82,23 @@ public class Snake
 
 
     }
+    public void WriteFruit(int x, int y)  //rysuje człown węża
+    {
+
+        Console.SetCursorPosition(x, y); 
+        List<char> fruits = new List<char>();
+        
+        fruits.Add('#');
+        fruits.Add('@');
+        fruits.Add('O');
+        fruits.Add('0');
+        fruits.Add('o');
+        int index = rnd.Next(fruits.Count);
+        Console.WriteLine(fruits[index]);
+        
+
+
+    }
 
     public void Logic() //logika gry 
     {
@@ -121,7 +139,7 @@ public class Snake
         for (int i = 0; i <= (parts - 1); i++) //rysuje węża
         {
             WritePoint(X[i], Y[i]);
-            WritePoint(fruitX, fruitY);
+            WriteFruit(fruitX, fruitY);
             if (X[i] > Width | X[i] < 0 | Y[i] > Height) //koniec gry gdy wyjdzie się poza linie 
             {
                 throw new System.ArgumentOutOfRangeException();
