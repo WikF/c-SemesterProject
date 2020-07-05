@@ -5,19 +5,22 @@ using System.Threading;
 public class Snake
 {
 
-    int Height = 20; // wysokość
-    int Width = 30; //szerokość planszy
+    int Height = 40; // wysokość
+    int Width = 60; //szerokość planszy
 
-    int[] X = new int[50];
-    int[] Y = new int[50];
+    int[] X = new int[60];
+    int[] Y = new int[60];
 
-    int fruitX;
+    //inicjowanie współrzędnych owocu 
+    int fruitX; 
     int fruitY;
-
+    
+    
+    //incjowanie długości węża
     int parts = 3;
 
 
-    ConsoleKeyInfo keyInfo = new ConsoleKeyInfo();
+    private ConsoleKeyInfo keyInfo;
     char key = 'W';
 
     Random rnd = new Random();
@@ -31,7 +34,8 @@ public class Snake
         fruitY = 10;
     }
 
-    public void WriteBoard()
+    public void WriteBoard() // tworzenie tablicy do gry 
+
     {
         Console.Clear();
         for (int i = 1; i <= (Width ); i++)
@@ -60,33 +64,33 @@ public class Snake
         }
 
     }
-    public void Input()
+    public void Input() //wprowadzanie klawiszy 
     {
         if (Console.KeyAvailable)
         {
             keyInfo = Console.ReadKey(true); //pobiera klawisz z klawiatury
-            key = keyInfo.KeyChar; //zamiena klawisz na wartość char i przypisuje do mniennej  
+            key = keyInfo.KeyChar; 
         }
     }
 
-    public void WritePoint(int x, int y)//rysuje człown węża
+    public void WritePoint(int x, int y)  //rysuje człown węża
     {
 
-        Console.SetCursorPosition(x, y); //ustawia kursor
+        Console.SetCursorPosition(x, y); 
         Console.Write("#");
 
 
     }
 
-    public void Logic()
+    public void Logic() //logika gry 
     {
         if (X[0] == fruitX)
         {
             if (Y[0] == fruitY)
             {
                 parts++;
-                fruitX = rnd.Next(maxValue:29, minValue:2);
-                fruitY = rnd.Next(maxValue:29, minValue:2);
+                fruitX = rnd.Next(maxValue:58, minValue:10);
+                fruitY = rnd.Next(maxValue:10, minValue:2);
             }
         }
 
@@ -118,13 +122,15 @@ public class Snake
         {
             WritePoint(X[i], Y[i]);
             WritePoint(fruitX, fruitY);
-            if (X[i] > Width | X[i] < 0)
+            if (X[i] > Width | X[i] < 0 | Y[i] > Height) //koniec gry gdy wyjdzie się poza linie 
             {
-                Console.WriteLine("KONIEC GRY");
+                throw new System.ArgumentOutOfRangeException();
             }
         }
 
         Thread.Sleep(200);
     }
 }
+
+
 
