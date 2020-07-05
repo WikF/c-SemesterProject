@@ -25,9 +25,7 @@ namespace TicTacToe
             int mark = -1;
             int gamemode = -1;
 
-            Console.WriteLine( "Choose gamemode: " );
-            Console.WriteLine( "(1) > 1 player" );
-            Console.WriteLine( "(2) > 2 player" );
+            Console.WriteLine( "Press 1 to play with computer" );
             do
             {
                 try
@@ -38,10 +36,8 @@ namespace TicTacToe
             } while ( gamemode < 1 || gamemode > 2 );
 
             Console.Clear();
-
-            if ( gamemode == 1 )
-            {
-                players = new Player[] { new Human(), new AI() };
+            
+            players = new Player[] { new Human(), new AI() };
 
                 do
                 {
@@ -62,37 +58,9 @@ namespace TicTacToe
                 players[0].init( name, ( Marks ) mark );
                 mark = mark != 4 ? mark + 1 : 2;
                 players[1].init( "Bot", ( Marks ) mark );
-            }
-            else
-            {
-                players = new Player[] { new Human(), new Human() };
-
-                do
-                {
-                    do
-                    {
-                        Console.WriteLine( "Player {0} please enter your name:", current + 1 );
-                        name = Console.ReadLine();
-                    } while ( name.Trim().Length == 0 );
-
-                    do
-                    {
-                        Console.WriteLine( "Player {0} choose mark:\n \t1. X\n\t2. O\n\t3. Y\n\t4. T", current + 1 );
-                        try
-                        {
-                            mark = Int32.Parse( Console.ReadKey( true ).KeyChar.ToString() );
-                        }
-                        catch ( FormatException ) { }
-                    } while ( mark > 4 || mark < 1 || ( current == 1 ? ( players[0].playerMark == ( Marks )mark ? true : false ) : false ) );
-
-                    players[current].init( name, ( Marks )mark );
-                    current++;
-
-                    if ( current == 2 )
-                        finish = true;
-                } while ( !finish );
-            }
-
+            
+            
+            
             return new Game( board, players );
         }
 

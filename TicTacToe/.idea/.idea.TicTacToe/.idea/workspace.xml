@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73e608b-fa7f-4bd8-91b7-6ea4bf28eeff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TicTacToe/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TicTacToe/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/Game.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TicTacToe/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TicTacToe/Board.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TicTacToe/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TicTacToe/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TicTacToe/Board.cs" />
+        <option value="$PROJECT_DIR$/TicTacToe/Player.cs" />
+        <option value="$PROJECT_DIR$/TicTacToe/Game.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1eGfQMzMj4yK4h2aydfE0UMCyG7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,6 +87,7 @@
       <updated>1593952832116</updated>
       <workItem from="1593952837838" duration="454000" />
       <workItem from="1593953621092" duration="766000" />
+      <workItem from="1593955820927" duration="532000" />
     </task>
     <servers />
   </component>
