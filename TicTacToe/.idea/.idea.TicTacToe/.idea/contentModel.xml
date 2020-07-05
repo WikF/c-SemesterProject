@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="packages" t="ExcludeRecursive" />
-      <e p="TicTacToe" t="IncludeRecursive">
-        <e p="App.config" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Board.cs" t="Include" />
-        <e p="Game.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Player.cs" t="Include" />
-        <e p="Program.cs" t="Include" />
-        <e p="Properties" t="Include" />
-        <e p="TicTacToe.csproj" t="IncludeRecursive" />
-      </e>
       <e p="TicTacToe.sln" t="IncludeFlat" />
     </e>
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />

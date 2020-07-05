@@ -11,61 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c73e608b-fa7f-4bd8-91b7-6ea4bf28eeff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/.idea.snakeGame.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/.idea.snakeGame.dir/.idea/.idea.snakeGame.dir.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/.idea.snakeGame.dir/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/.idea.snakeGame.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/.idea.snakeGame.dir/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/.idea.snakeGame.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/.idea.snakeGame.dir/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.vs/snakeGame/xs/UserPrefs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.vs/snakeGame/xs/project-cache/snakeGame-Debug.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.vs/snakeGame/xs/sqlite3/db.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.vs/snakeGame/xs/sqlite3/storage.ide" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.vs/snakeGame/xs/sqlite3/storage.ide-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/.vs/snakeGame/xs/sqlite3/storage.ide-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/Properties/PublishProfiles/FolderProfile.pubxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/Snake.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Debug/netcoreapp3.1/snakeGame.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Debug/netcoreapp3.1/snakeGame.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Debug/netcoreapp3.1/snakeGame.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Debug/netcoreapp3.1/snakeGame.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Debug/netcoreapp3.1/snakeGame.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Debug/snakeGame.1.0.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/publish/snakeGame.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/publish/snakeGame.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/publish/snakeGame.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/publish/snakeGame.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/snakeGame.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/snakeGame.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/snakeGame.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/snakeGame.runtimeconfig.dev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/bin/Release/netcoreapp3.1/snakeGame.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/netcoreapp3.1/snakeGame.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/netcoreapp3.1/snakeGame.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/netcoreapp3.1/snakeGame.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/netcoreapp3.1/snakeGame.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/netcoreapp3.1/snakeGame.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/netcoreapp3.1/snakeGame.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/netcoreapp3.1/snakeGame.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Debug/snakeGame.1.0.0.nuspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Release/netcoreapp3.1/snakeGame.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Release/netcoreapp3.1/snakeGame.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Release/netcoreapp3.1/snakeGame.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Release/netcoreapp3.1/snakeGame.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Release/netcoreapp3.1/snakeGame.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Release/netcoreapp3.1/snakeGame.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/Release/netcoreapp3.1/snakeGame.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/snakeGame.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/snakeGame.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/snakeGame.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/obj/snakeGame.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/snakeGame.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snakeGame/snakeGame.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593952832116</updated>
       <workItem from="1593952837838" duration="454000" />
-      <workItem from="1593953621092" duration="14000" />
+      <workItem from="1593953621092" duration="262000" />
     </task>
     <servers />
   </component>
@@ -159,9 +109,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593953291738" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1593953634947">
+    <state x="341" y="164" key="SettingsEditor" timestamp="1593953685735">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1593953634947" />
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1593953685735" />
   </component>
 </project>
