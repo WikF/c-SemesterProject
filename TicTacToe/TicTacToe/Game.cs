@@ -15,12 +15,11 @@ namespace TicTacToe
 
         public static Game init ()
         {
-            Console.WriteLine( "Welcome to Tic-Tac-Toe" );
+            Console.WriteLine( "Welcome to Tic-Tac-Toe (Kółko i krzyżyk)" );
             Board board = new Board();
             Player[] players;
 
-            int current = 0;
-            bool finish = false;
+           
             String name;
             int mark = -1;
             int gamemode = -1;
@@ -47,7 +46,7 @@ namespace TicTacToe
 
                 do
                 {
-                    Console.WriteLine( "Player choose mark:\n \t1. X\n\t2. O\n\t3. Y\n\t4. T" );
+                    Console.WriteLine( "Player choose mark by pressing number:\n \t1. X\n\t2. O\n\t3. Y\n\t4. T" );
                     try
                     {
                         mark = Int32.Parse( Console.ReadKey( true ).KeyChar.ToString() );
