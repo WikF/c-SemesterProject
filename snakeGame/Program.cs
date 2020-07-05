@@ -5,21 +5,29 @@ namespace snakeGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Do you want to play Snake? Press y for yes, n for no.");
-            Console.WriteLine("Nawigate with W - up, S - down, D - right, A - left. Enjoy!");
-
-            if (Console.ReadLine() == "y")
+            try
             {
-                Snake snake = new Snake();
-                while (true)
+
+                Console.WriteLine("Do you want to play Snake? Press y for yes, n for no.");
+                Console.WriteLine("Nawigate with W - up, S - down, D - right, A - left. Enjoy!");
+
+                if (Console.ReadLine() == "y")
                 {
-                    snake.WriteBoard();
-                    snake.Input();
-                    snake.Logic();
+                    Snake snake = new Snake();
+                    while (true)
+                    {
+                        snake.WriteBoard();
+                        snake.Input();
+                        snake.Logic();
+                    }
                 }
-                Console.ReadKey();
+
             }
-            
+            catch(System.ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("");
+                Console.WriteLine("YOU LOST!");
+            }
         }
     }
 }
