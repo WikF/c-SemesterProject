@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c73e608b-fa7f-4bd8-91b7-6ea4bf28eeff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TicTacToe/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/bin/Debug/TicTacToe.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.exe" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TicTacToe/obj/Debug/TicTacToe.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="c73e608b-fa7f-4bd8-91b7-6ea4bf28eeff" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +84,7 @@
       <updated>1593952832116</updated>
       <workItem from="1593952837838" duration="454000" />
       <workItem from="1593953621092" duration="766000" />
-      <workItem from="1593955820927" duration="782000" />
+      <workItem from="1593955820927" duration="1061000" />
     </task>
     <servers />
   </component>
@@ -115,22 +109,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593981036704">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1593981086904">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593981036704" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593981036703">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593981086904" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1593981086902">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593981036703" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593981036702">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593981086902" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1593981086902">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593981036702" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593981036704">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593981086902" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1593981086903">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593981036704" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593981086903" />
     <state x="341" y="164" key="SettingsEditor" timestamp="1593953685735">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

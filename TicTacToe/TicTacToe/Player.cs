@@ -11,7 +11,7 @@ namespace TicTacToe
 
         public abstract void Move ( Board board );
         public abstract void init ( string Name, Marks mark );
-        public virtual void Reset () {}
+        public virtual void Reset () {} 
     }
 
     class Human : Player

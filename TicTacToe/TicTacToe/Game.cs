@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace TicTacToe
-{
+{ // Inicjowanie gry i pytania do gracza
     class Game
     {
         Board _board;

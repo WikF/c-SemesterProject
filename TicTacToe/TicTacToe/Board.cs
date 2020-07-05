@@ -54,7 +54,7 @@ namespace TicTacToe
         
         public int GetSize () { return Size * Size; }
         public void Print ()
-        {
+        { //Tworzenie planszy 
             Console.WriteLine();
             Console.WriteLine( "{0}  0   1   2 ", new string( ' ', 3 ) );
             for ( int i = 0; i < Size; ++i )
@@ -92,7 +92,7 @@ namespace TicTacToe
         public Marks GetMark ( int row, int col ) { return board[3 * row + col]; }
 
         public bool isDraw ()
-        {
+        { //Definiowanie remisu
             Console.Clear();
             if ( moves >= Size * Size )
             {
@@ -104,7 +104,7 @@ namespace TicTacToe
         }
 
         public bool isWin ( Player player )
-        {
+        { //Definiowanie zwycięstwa
             int i = 0, j = 0, count = 0;
             for ( i = 0; i < 8; ++i )
             {
